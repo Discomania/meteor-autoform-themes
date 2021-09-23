@@ -40,6 +40,13 @@ latest Bootstrap, this is your choice.
 
  - [Bootstrap 4 theme installation guide and documentation](./bootstrap4/README.md)
 
+### Bootstrap 5
+
+This theme supports the current latest Bootstrap 5.x version. If you want the
+latest Bootstrap, this is your choice.
+
+ - [Bootstrap 5 theme installation guide and documentation](./bootstrap5/README.md)
+
 ## Contribution
 
 Do not hesitate to report any issue with installing or running the themes.
