@@ -10,7 +10,7 @@ Template.afFormGroup_bootstrap5.helpers({
     return (self.skipLabel || type === 'boolean-checkbox')
   },
   bsFieldLabelAtts: function bsFieldLabelAtts () {
-    return addBootstrap5Class(this.afFieldLabelAtts, 'control-label')
+    return addBootstrap5Class(this.afFieldLabelAtts, 'form-label')
   },
   bsFieldInputAtts () {
     const ctx = AutoForm.getValidationContext()

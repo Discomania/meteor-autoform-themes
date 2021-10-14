@@ -1,7 +1,7 @@
 /* eslint-env meteor */
 Package.describe({
   name: 'discomania:autoform-bootstrap5',
-  version: '1.0.6',
+  version: '1.0.7',
   // Brief, one-line summary of the package.
   summary: 'Bootstrap 5 theme for aldeed:autoform',
   // URL to the Git repository containing the source code for this package.
@@ -12,7 +12,7 @@ Package.describe({
 })
 
 Package.onUse(function (api) {
-  api.versionsFrom('METEOR@1.3')
+  api.versionsFrom('2.3')
   api.use('ecmascript')
   api.use([
     'templating@1.3.2',
